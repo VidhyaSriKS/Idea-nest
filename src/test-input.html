@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Test</title>
+    <style>
+        body {
+            background: #0f172a;
+            color: white;
+            padding: 40px;
+            font-family: sans-serif;
+        }
+        .test-input {
+            width: 100%;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            color: white;
+            font-size: 16px;
+        }
+        .test-input:focus {
+            outline: none;
+            border-color: #38bdf8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Input Test</h1>
+    <p>If this input works, the issue is in React/components:</p>
+    <input type="text" class="test-input" placeholder="Type here to test...">
+    
+    <h2 style="margin-top: 40px;">Textarea Test</h2>
+    <textarea class="test-input" rows="5" placeholder="Type here..."></textarea>
+</body>
+</html>
